@@ -5,6 +5,10 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+// программа работает с параметрами урлов, все параметры выводятся каждый с новой строки, если это не обхект, его значения не передаются
+// если встречается параметр obj, то передается его значение в метод alert с подходящим типом
+// еще тут реализован метод проверки, возможер ли реализовать строку в тип данных double
+
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
